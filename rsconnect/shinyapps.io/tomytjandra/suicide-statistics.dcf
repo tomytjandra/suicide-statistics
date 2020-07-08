@@ -1,0 +1,12 @@
+name: suicide-statistics
+title:
+username:
+account: tomytjandra
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 2545582
+bundleId: 3366173
+url: https://tomytjandra.shinyapps.io/suicide-statistics/
+when: 1594196577.61804
+asMultiple: FALSE
+asStatic: FALSE
