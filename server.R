@@ -159,6 +159,14 @@ function(input, output, session) {
         }
     })
     
+    # -------------------- PAGE 2: RESET BUTTON
+    
+    observeEvent(input$reset, {
+        updateSelectInput(session,
+                          inputId = "chooseCountry",
+                          selected = "Worldwide")
+    })
+    
     # -------------------- PAGE 2: LINE PLOT
     
     output$line <- renderPlotly({

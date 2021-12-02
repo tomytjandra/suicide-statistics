@@ -88,6 +88,15 @@ body <- dashboardBody(
             
             fluidRow(
                 column(
+                    width = 12,
+                    actionButton(inputId = "reset", label = "Reset")
+                )
+            ),
+            
+            br(),
+            
+            fluidRow(
+                column(
                     width = 6,
                     plotlyOutput(outputId = "line")
                 ),
